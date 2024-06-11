@@ -8,10 +8,10 @@ public class MainMenu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Welcome to the User Authentication System");
-            System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.print("Login Register page");
+            System.out.print("1. Register\n");
+            System.out.print("2. Login\n");
+            System.out.print("3. Exit\n");
             System.out.print("Please choose an option: ");
             
             int choice = scanner.nextInt();
