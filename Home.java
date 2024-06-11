@@ -8,7 +8,7 @@ public class MainMenu {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.print("Login Register page");
+            System.out.println("Login Register page");
             System.out.print("1. Register\n");
             System.out.print("2. Login\n");
             System.out.print("3. Exit\n");
